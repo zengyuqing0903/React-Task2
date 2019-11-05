@@ -1,0 +1,87 @@
+.title{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.topic_tab{
+    margin: 0 10px;
+    color: #80bd01;
+}
+.topic_tab:hover{
+    background-color: #80bd01;
+    color: #fff;
+    border-radius: 3px;
+}
+/* All--css */
+.left .cell {
+    padding-right: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+.cell {
+    position: relative;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    height: 50px;
+}
+
+#topic_list {
+    margin: 0;
+}
+
+.pull-left {
+    float: left;
+}
+.reply_count {
+    margin-left:10px ;
+    display: inline-block;
+    text-align: center;  
+}
+.count_of_replies {
+    color: #9e78c0;
+}
+.count_seperator {
+    font-size: 10px;
+}
+.cell .count_of_visits {
+    font-size: 10px;
+    color: #b4b4b4;
+}
+.topic_title_wrapper {
+    position: absolute;
+    top: 15px;
+    left:110px;
+}
+.topic_title {
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    width: 580px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.pagination{
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
+.link_title{
+    color: #333;
+}
+.link_title:hover{
+    color: #888;
+}
+.btn{
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    color: #778087;;
+}
+.btn:hover{
+    background: #f6f6f6;
+    color:#999;
+}

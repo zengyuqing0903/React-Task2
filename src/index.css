@@ -1,0 +1,132 @@
+@import '~antd/dist/antd.css';
+
+*{  
+    padding: 0;
+    margin: 0;
+
+}
+  /* APP.js */
+
+body{
+    background: #e1e1e1;
+}
+.content{
+    width: 1200px;
+    margin: 20px auto 0;
+}
+.left{
+    width: 900px;
+    float: left;
+    background: #fff;
+}
+.right{
+    width: 270px;
+    float: right;
+    background: #f6f6f6;
+    height: 500px;
+}
+/* Content.js */
+.panel{
+    margin-bottom: 13px;
+}
+.topic_header{
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+.topic_full_title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 8px 0;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 75%;
+    line-height: 130%;
+}
+.put_top {
+    background: #80bd01;
+    padding: 2px 4px;
+    margin-right:5px ;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+}
+.changes {
+    font-size: 12px;
+    color: #838383;
+}
+.add_change{
+    margin-right:20px ;
+}
+.inner.topic {
+    padding: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+.topic_content {
+    margin: 0 10px;
+}
+/* Signin.js */
+.login_header{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.breadcrumb{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+}
+.ma{
+    color: #80bd01;
+}
+.divider{
+    padding: 0 5px;
+    color: #ccc;
+}
+.act{
+    display: inline-block;
+    color: #999;
+}
+.login_inner{
+    padding: 10px;
+}
+.form-horizontal{
+    margin-top:30px;
+} 
+.control-group {
+    margin-bottom: 20px;
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+.form-horizontal .controls {
+    margin-left: 180px;
+}
+.input-xlarge{
+    width: 270px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    height: 30px;
+}
+.span-info {
+        padding: 3px 10px;
+        margin-left:50px;
+        border: none;
+        width: 130px;
+        height: 36px;
+        font-size: 14px;
+        box-shadow: none;
+        border-radius: 3px;
+        line-height: 2em;
+        text-align: center;
+        color: #fff;
+        background-color: #5bc0de;
+}
+.form-actions {
+    padding-left: 180px;
+}

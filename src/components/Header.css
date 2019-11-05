@@ -1,0 +1,32 @@
+.header{
+    height: 50px;
+    background: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin:0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.header img{
+    width: 120px;
+    margin-top: 7px;
+    float: left;
+}
+.search-query{
+    border:none;
+    float: left;
+    background: #888;
+    border-radius:15px;
+    height:20px;
+    width:200px;
+    margin-top:15px;
+    margin-left:10px;
+}
+.search-query:hover{
+    box-shadow: none;
+}
